@@ -1,4 +1,4 @@
-package com.github.kafka.course;
+package kafka.course;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
@@ -11,8 +11,8 @@ import org.slf4j.LoggerFactory;
 import java.util.Collections;
 import java.util.Properties;
 
-public class ConsumerApplicationWithGroup {
-    private static Logger logger = LoggerFactory.getLogger(ConsumerApplicationWithGroup.class);
+public class ConsumerApplication {
+    private static Logger logger = LoggerFactory.getLogger(ConsumerApplication.class);
 
     public static void main(String[] args) {
         Properties props = new Properties();

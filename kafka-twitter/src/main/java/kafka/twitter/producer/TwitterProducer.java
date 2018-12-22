@@ -1,4 +1,4 @@
-package com.github.kafka.twitter.producer;
+package kafka.twitter.producer;
 
 import com.twitter.hbc.ClientBuilder;
 import com.twitter.hbc.core.Client;
